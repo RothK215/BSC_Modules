@@ -1,0 +1,178 @@
+#sum-panel {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(190, 231, 218);
+}
+
+#vis-panel {
+    box-sizing: content-box;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(190, 231, 218);
+}
+
+#text-panel {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(190, 231, 218);
+}
+
+.row {
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(190, 231, 218);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+/* Navigation Bar Elements */
+nav.navbar {
+    list-style: none;
+    height: auto;
+    background-color: rgb(102, 225, 178);
+    width: 100%;
+    border-color: black;
+    border-style: double;
+}
+/* Latitude Analysis Ele*/
+label a {
+    font-size: 50px;
+    padding-left: 5px;
+    background: none;
+    color: black;
+}
+label a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* Navbar List Placement */
+nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: rgb(102, 225, 178);
+}
+
+/* Navbar List Border box */
+nav ul li {
+    /*font-size: 25px;*/
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background-color: rgb(102, 225, 178);
+}
+
+/* Navbar List Words*/
+a.nav-links {
+    font-size: 25px;
+    color: black;
+}
+a.nav-links:hover {
+    font-size: 25px;
+    color: white;
+}
+
+/* Plots Dropdown */
+nav ul li a {
+    display: block;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(102, 225, 178);
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    z-index: 5000;
+    display: block;
+    right: auto;
+}
+
+nav ul ul li {
+    list-style: none;
+    width: 190px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul li a {
+    color: black;
+}
+nav ul ul li a:hover {
+    color: white;
+}
+
+/* Visualizations Container */
+#vis-fig {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+  
+#vis-fig > a img{
+    float: center;
+    border: 2px solid black;
+    width: 46%;
+    margin: 1.66%;
+}
+
+/* Comparison Images */
+#com-imgs {
+    background-color: rgb(190, 231, 218);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+#com-imgs > img {
+    float: center;
+    border: 2px solid rgb(255, 255, 255);
+    width: 46.5%;
+    margin: 1.66%;
+  }
+
+
+#viz {
+    text-align: center;
+}
+
+/* Text Elements */
+h1 {
+    text-indent: 15px;
+}
+
+p {
+    text-indent: 15px;
+    font-size: 15px;
+    font-size: large;
+}
+
+#summary {
+    text-indent: 15px;
+}
+
+@media (max-width: 1000px) {
+    #com-imgs > img {
+        float: center;
+        border: 2px solid rgb(255, 255, 255);
+        width: 96.5%;
+        margin: 1.66%;
+      }
+}

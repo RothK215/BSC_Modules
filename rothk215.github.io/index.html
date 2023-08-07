@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Python API Homepage</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  </head>
+
+  <body>
+    <div class="Navigation">
+      <nav class="navbar">
+        <label class="logo"><a href="../index.html"> Latitude Analysis <a></label>
+          <ul>
+            <li>
+              <a class="nav-links" href="#">Plots</a>
+                <ul>
+                  <li><a href="visualizations/temp.html">Max Temperature</a></li>
+                  <li><a href="visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-links" href="comparison.html">Comparison</a></li>
+            <li><a class="nav-links" href="data.html">Data</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <div class="container"> 
+      <div class="col-md-7" id="sum-panel">
+        <h1>Summary: Latitude vs. X</h1>
+        <hr>
+        <p> This site is in relation to the previous Python API Challenge. The purpose of the project
+          was to analyze weather changes as you get closer to the equator.  </p>
+      </div>
+
+      <div class="col-md-4" id="vis-panel">
+        <h2 id="viz">Visualizations</h2>
+          <div id="vis-fig">
+            <br>
+            <a href="visualizations/temp.html"><img  title="Latitude vs. Max Temperature" src="assets/images/Fig1.png"></a>
+            <a href="visualizations/humidity.html"><img title="Latitude vs. Humidity" src="assets/images/Fig2.png"></a>
+            <a href="visualizations/cloudiness.html"><img title="Latitude vs. Cloudiness" src="assets/images/Fig3.png"></a>
+            <a href="visualizations/wind.html"><img title="Latitude vs. Wind Speed" src="assets/images/Fig4.png"></a>
+          </div>
+        
+    </div>
+  </body>
+</html>

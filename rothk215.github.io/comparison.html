@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Add a title here -->
+    <title> Comparison Homepage </title>
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <div class="Navigation">
+      <nav class="navbar">
+        <label class="logo"><a href="index.html"> Latitude Analysis <a></label>
+          <ul>
+            <li>
+              <a class="nav-links" href="#">Plots</a>
+                <ul>
+                  <li><a href="visualizations/temp.html">Max Temperature</a></li>
+                  <li><a href="visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-links" href="comparison.html">Comparison</a></li>
+            <li><a class="nav-links" href="data.html">Data</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <!-- Start of container -->
+    <div class="container">
+      <div class="col-md-12" id="com-imgs">
+        <img title="Latitude vs. Max Temperature" src="assets/images/Fig1.png">
+        <img title="Latitude vs. Humidity" src="assets/images/Fig2.png">
+        <img title="Latitude vs. Cloudiness" src="assets/images/Fig3.png">
+        <img title="Latitude vs. Wind Speed" src="assets/images/Fig4.png">
+      </div>
+    </div>
+    <!-- End of container -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
